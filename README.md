@@ -66,7 +66,18 @@ design-patterns-assignment-min/
 - `loadsUsageForBrandBLock()` → expects `0.20`.
 - `factoriesCreateCorrectConcreteTypes()` → sanity check.
 
-  ## Screenshots
-- `docs/screenshots/main-output.png` - please check this folder 
-- `docs/screenshots/tests-pass.png` - please check this folder
-- `docs/screenshots/uml.png` - please check this folder
+## Screenshots
+UML Diagram
+Here is the UML class diagram showing the Abstract Factory + Factory Method design:
+
+![UML Diagram](docs/screenshots/uml.png)
+
+Demo Output
+Console output after running `Main.java`:
+
+![Demo Output](docs/screenshots/demo-output.png)
+
+Tests
+All unit tests passing in IntelliJ (green bar):
+
+![Tests Passing](docs/screenshots/tests-pass.png)
