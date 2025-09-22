@@ -70,14 +70,14 @@ design-patterns-assignment-min/
 UML Diagram
 Here is the UML class diagram showing the Abstract Factory + Factory Method design:
 
-![UML Diagram](docs/screenshots/uml.png)
+![UML Diagram](design-patterns-assignment-min/docs/screenshots/uml.png)
 
 Demo Output
 Console output after running `Main.java`:
 
-![Demo Output](docs/screenshots/demo-output.png)
+![Demo Output](design-patterns-assignment-min/docs/screenshots/demo-output.png)
 
 Tests
-All unit tests passing in IntelliJ (green bar):
+All unit tests passing in IntelliJ:
 
-![Tests Passing](docs/screenshots/tests-pass.png)
+![Tests Passing](design-patterns-assignment-min/docs/screenshots/tests-pass.png)
