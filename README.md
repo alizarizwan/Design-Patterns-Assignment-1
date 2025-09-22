@@ -1,4 +1,4 @@
-# Assignment 1 — Design Patterns (Abstract Factory + Factory Method)
+# Assignment 1 — Design Patterns
 
 **Group 41:** Aliza Rizwan, Inshal Chaudhary, Zainab Lawal
 
