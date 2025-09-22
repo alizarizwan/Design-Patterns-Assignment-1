@@ -9,6 +9,7 @@ This project implements:
 - **Factory Method** — each product defers usage-data loading via `createUsageLoader()` (implemented by concrete products), which returns a `UsageLoader` (here, `FileUsageLoader`) to read values from tiny text files (simulating an external DB).
 
 ## Repository Structure
+```text
 design-patterns-assignment-min/
 ├─ pom.xml
 ├─ README.md
@@ -16,34 +17,40 @@ design-patterns-assignment-min/
 │  ├─ uml.txt
 │  └─ uml.plantuml
 └─ src/
-├─ main/java/com/aliza/smart/
-│  ├─ api/              # Interfaces
-│  │   ├─ Bulb.java
-│  │   ├─ Lock.java
-│  │   └─ SmartDeviceFactory.java
-│  ├─ devices/          # Abstract + concrete products
-│  │   ├─ AbstractSmartDevice.java
-│  │   ├─ BrandABulb.java
-│  │   ├─ BrandALock.java
-│  │   ├─ BrandBBulb.java
-│  │   └─ BrandBLock.java
-│  ├─ factories/
-│  │   ├─ BrandAFactory.java
-│  │   └─ BrandBFactory.java
-│  ├─ usage/
-│  │   ├─ UsageLoader.java
-│  │   └─ FileUsageLoader.java
-│  └─ app/
-│      └─ Main.java
-├─ main/resources/usage/
-│  ├─ brandA/
-│  │   ├─ bulb.txt   (9.5)
-│  │   └─ lock.txt   (0.15)
-│  └─ brandB/
-│      ├─ bulb.txt   (8.8)
-│      └─ lock.txt   (0.20)
-└─ test/java/com/aliza/smart/
-└─ BulbLockTests.java
+   ├─ main/
+   │  ├─ java/
+   │  │  └─ com/aliza/smart/
+   │  │     ├─ api/
+   │  │     │  ├─ Bulb.java
+   │  │     │  ├─ Lock.java
+   │  │     │  └─ SmartDeviceFactory.java
+   │  │     ├─ devices/
+   │  │     │  ├─ AbstractSmartDevice.java
+   │  │     │  ├─ BrandABulb.java
+   │  │     │  ├─ BrandALock.java
+   │  │     │  ├─ BrandBBulb.java
+   │  │     │  └─ BrandBLock.java
+   │  │     ├─ factories/
+   │  │     │  ├─ BrandAFactory.java
+   │  │     │  └─ BrandBFactory.java
+   │  │     ├─ usage/
+   │  │     │  ├─ UsageLoader.java
+   │  │     │  └─ FileUsageLoader.java
+   │  │     └─ app/
+   │  │        └─ Main.java
+   │  └─ resources/
+   │     └─ usage/
+   │        ├─ brandA/
+   │        │  ├─ bulb.txt
+   │        │  └─ lock.txt
+   │        └─ brandB/
+   │           ├─ bulb.txt
+   │           └─ lock.txt
+   └─ test/
+      └─ java/
+         └─ com/aliza/smart/
+            └─ BulbLockTests.java
+
 
 ## How to Run (IntelliJ)
 1. Open **File → New → Project from Existing Sources…**, choose `pom.xml`.
