@@ -50,8 +50,7 @@ design-patterns-assignment-min/
       └─ java/
          └─ com/aliza/smart/
             └─ BulbLockTests.java
-
-
+```
 ## How to Run (IntelliJ)
 1. Open **File → New → Project from Existing Sources…**, choose `pom.xml`.
 2. Wait for Maven sync.
