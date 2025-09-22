@@ -67,17 +67,14 @@ design-patterns-assignment-min/
 - `factoriesCreateCorrectConcreteTypes()` → sanity check.
 
 ## Screenshots
-UML Diagram
 Here is the UML class diagram showing the Abstract Factory + Factory Method design:
 
 ![UML Diagram](design-patterns-assignment-min/docs/screenshots/uml.png)
 
-Demo Output
 Console output after running `Main.java`:
 
-![Demo Output](design-patterns-assignment-min/docs/screenshots/demo-output.png)
+![Demo Output](design-patterns-assignment-min/docs/screenshots/main-output.png)
 
-Tests
 All unit tests passing in IntelliJ:
 
 ![Tests Passing](design-patterns-assignment-min/docs/screenshots/tests-pass.png)
