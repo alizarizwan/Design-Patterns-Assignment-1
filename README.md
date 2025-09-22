@@ -67,7 +67,7 @@ design-patterns-assignment-min/
 - `factoriesCreateCorrectConcreteTypes()` → sanity check.
 
 ## Screenshots
-Here is the UML class diagram showing the Abstract Factory + Factory Method design:
+Here is the UML class diagram showing the Abstract Factory and Factory Method design:
 
 ![UML Diagram](design-patterns-assignment-min/docs/screenshots/uml.png)
 
