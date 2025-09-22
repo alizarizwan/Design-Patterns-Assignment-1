@@ -59,9 +59,10 @@ design-patterns-assignment-min/
 - `loadsUsageForBrandBLock()` → expects `0.20`.
 - `factoriesCreateCorrectConcreteTypes()` → sanity check.
 
-## Screenshots (add after running)
+## Screenshots
 - `docs/screenshots/main-output.png` - please check this folder 
 - `docs/screenshots/tests-pass.png` - please check this folder
 - `docs/screenshots/uml.png` - please check this folder
+
 
 
