@@ -1,6 +1,7 @@
 # Assignment 1 — Design Patterns (Abstract Factory + Factory Method)
 
 **Group 41:** Aliza Rizwan, Inshal Chaudhary, Zainab Lawal
+
 **IDE:** IntelliJ IDEA (Maven project)
 
 This project implements:
