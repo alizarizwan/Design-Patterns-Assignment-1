@@ -1,4 +1,4 @@
-# Assignment 1 — Design Patterns (Abstract Factory + Factory Method)
+# Assignment 1 — Design Patterns
 
 **IDE:** IntelliJ IDEA (Maven project)
 
@@ -63,6 +63,7 @@ design-patterns-assignment-min/
 - `docs/screenshots/main-output.png` - please check this folder 
 - `docs/screenshots/tests-pass.png` - please check this folder
 - `docs/screenshots/uml.png` - please check this folder
+
 
 
 
