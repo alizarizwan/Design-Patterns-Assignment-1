@@ -66,7 +66,8 @@ design-patterns-assignment-min/
 - `loadsUsageForBrandBLock()` → expects `0.20`.
 - `factoriesCreateCorrectConcreteTypes()` → sanity check.
 
-## Tests Explain: loadsUsageForBrandABulb()
+## Tests Explain: 
+loadsUsageForBrandABulb()
 This test checks that the BrandAFactory correctly creates a Bulb. After calling loadUsage(), the bulb should report a usage value of 9.5. This ensures the brand-specific implementation behaves as expected.
 
 loadsUsageForBrandBLock()
@@ -79,6 +80,7 @@ This is a sanity check to ensure that both factories (BrandAFactory and BrandBFa
 - `docs/screenshots/main-output.png` - please check this folder 
 - `docs/screenshots/tests-pass.png` - please check this folder
 - `docs/screenshots/uml.png` - please check this folder
+
 
 
 
