@@ -68,14 +68,14 @@ design-patterns-assignment-min/
 - `factoriesCreateCorrectConcreteTypes()` → sanity check.
 
 
-## Tests Explained: 
-loadsUsageForBrandABulb()
+## Tests Explained
+loadsUsageForBrandABulb():
 This test checks that the BrandAFactory correctly creates a Bulb. After calling loadUsage(), the bulb should report a usage value of 9.5. This ensures the brand-specific implementation behaves as expected.
 
-loadsUsageForBrandBLock()
+loadsUsageForBrandBLock():
 This test verifies that the BrandBFactory correctly creates a Lock. After calling loadUsage(), the lock should report a usage value of 0.20. This validates that the Brand B lock implementation is working properly.
 
-factoriesCreateCorrectConcreteTypes()
+factoriesCreateCorrectConcreteTypes():
 This is a sanity check to ensure that both factories (BrandAFactory and BrandBFactory) create non-null instances of both Bulb and Lock. This test confirms that the abstract factory design pattern is implemented correctly and consistently across brands.
 
 
